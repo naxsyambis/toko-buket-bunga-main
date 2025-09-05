@@ -1,0 +1,88 @@
+.footer {
+  background-color: #2d3748;
+  color: #a0aec0;
+  padding: 50px 0 20px 0;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.footer-section h3 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.footer-section.about .footer-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d53f8c;
+  margin-bottom: 15px;
+}
+
+.footer-section.about p {
+  line-height: 1.7;
+}
+
+.footer-section.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section.links a {
+  color: #a0aec0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section.links a:hover {
+  color: #d53f8c;
+}
+
+.footer-section.contact p {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section.contact i {
+  color: #d53f8c;
+  margin-right: 12px;
+  width: 16px;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #a0aec0;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #d53f8c;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #4a5568;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.85rem;
+}
