@@ -47,7 +47,19 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const logout = () => {
+const logout = () => {
+    const token = localStorage.getItem('token');
+    if (token) {
+      // Panggil endpoint logout di backend untuk mencatat aktivitas
+      axios.post('http://localhost:5000/api/auth/logout', {}, {
+        headers: { 'Authorization': `Bearer ${token}` }
+      }).catch(err => {
+        // Tetap lanjutkan logout di frontend meskipun API gagal
+        console.error('Gagal mencatat logout di server:', err);
+      });
+    }
+    
+    // Hapus data dari sisi klien
     setCurrentUser(null);
     localStorage.removeItem('token');
   };

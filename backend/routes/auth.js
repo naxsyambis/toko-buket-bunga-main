@@ -2,6 +2,8 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const db = require('../config/database');
+const { logActivity } = require('../utils/logger'); // <-- Import logger
+const { auth } = require('../middleware/auth'); // <-- Import middleware auth
 const router = express.Router();
 
 // Register
@@ -12,11 +14,9 @@ router.post('/register', async (req, res) => {
   if (!name || !email || !password) {
     return res.status(400).json({ message: 'Harap isi nama, email, dan password' });
   }
-  
   if (password.length < 6) {
     return res.status(400).json({ message: 'Password harus minimal 6 karakter' });
   }
-  
   if (!email.includes('@')) {
     return res.status(400).json({ message: 'Email tidak valid' });
   }
@@ -102,6 +102,9 @@ router.post('/login', async (req, res) => {
       process.env.JWT_SECRET || 'fallback_secret',
       { expiresIn: '7d' }
     );
+
+    // Tambahkan log untuk login
+    logActivity(`Login berhasil: Pengguna ${user.email} (ID: ${user.id}) masuk.`);
     
     res.json({
       message: 'Login berhasil',
@@ -117,6 +120,15 @@ router.post('/login', async (req, res) => {
     console.error('Login error:', error);
     res.status(500).json({ message: 'Server error', error: error.message });
   }
+});
+
+// Rute baru untuk logout
+router.post('/logout', auth, (req, res) => {
+  const user = req.user;
+  if (user) {
+    logActivity(`Logout berhasil: Pengguna ${user.email} (ID: ${user.id}) keluar.`);
+  }
+  res.status(200).json({ message: 'Logout berhasil dicatat' });
 });
 
 // Get current user profile
