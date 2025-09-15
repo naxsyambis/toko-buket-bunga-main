@@ -1,20 +1,18 @@
-
-\<div align="center"\>
-\<h1\>Toko Buket Bunga (FLORYN)\</h1\>
-\<p\>\<strong\>Aplikasi Web E-Commerce Full-Stack untuk Toko Buket Bunga Online\</strong\>\</p\>
-\<p\>Proyek Final Praktikum Pengembangan Aplikasi Web\</p\>
-\</div\>
+<div align="center">
+  <h1>Toko Buket Bunga (FLORYN)</h1>
+  <p><strong>Aplikasi Web E-Commerce Full-Stack untuk Toko Buket Bunga Online</strong></p>
+  <p>Proyek Final Praktikum Pengembangan Aplikasi Web</p>
+</div>
 
 -----
 
 ## Daftar Isi
-
-  - [Fitur Utama](https://www.google.com/search?q=%23fitur-utama)
-  - [Aset Proyek](https://www.google.com/search?q=%23aset-proyek)
-  - [Pemenuhan Spesifikasi Proyek](https://www.google.com/search?q=%23pemenuhan-spesifikasi-proyek)
-  - [Instalasi dan Menjalankan Proyek](https://www.google.com/search?q=%23instalasi-dan-menjalankan-proyek)
-  - [Dokumentasi API](https://www.google.com/search?q=%23dokumentasi-api)
-  - [Kolaborator](https://www.google.com/search?q=%23kolaborator)
+  - [Fitur Utama](#fitur-utama)
+  - [Aset Proyek](#aset-proyek)
+  - [Pemenuhan Spesifikasi Proyek](#pemenuhan-spesifikasi-proyek)
+  - [Instalasi dan Menjalankan Proyek](#instalasi-dan-menjalankan-proyek)
+  - [Dokumentasi API](#dokumentasi-api)
+  - [Kolaborator](#kolaborator)
 
 -----
 
@@ -115,11 +113,19 @@ Dokumentasi lengkap API dapat diakses melalui tautan Postman berikut:
 
 Berikut adalah beberapa contoh *screenshot* dari dokumentasi API:
 
+## Dokumentasi API
+
+Dokumentasi lengkap API dapat diakses melalui tautan Postman berikut:
+
+[Dokumentasi API Floryn](https://naxsyambis-8367600.postman.co/workspace/Friska's-Workspace~de0dc303-8902-4d87-852e-dcf4b7834ade/collection/47332148-9f65aae8-499f-49f8-87b3-159c6b6180c2?action=share&creator=47332148&active-environment=47332148-b065658e-9c5a-4d39-a4d1-95228e54d8d1)
+
+Berikut adalah beberapa contoh *screenshot* dari dokumentasi API:
+
 ### Alur Otentikasi
 
 | Registrasi User Baru | Login Sebagai Buyer | Login Sebagai Admin |
 | :---: | :---: | :---: |
-|  |  |  |
+| <img src="Dokumentasi API 8/Authentication Flow (Auth)/Register User Baru.png" width="300"> | <img src="Dokumentasi API 8/Authentication Flow (Auth)/Login Sebagai Buyer.png" width="300"> | <img src="Dokumentasi API 8/Authentication Flow (Auth)/Login Sebagai Admin.png" width="300"> |
 
 ### Rute Admin
 
@@ -127,25 +133,25 @@ Berikut adalah beberapa contoh *screenshot* dari dokumentasi API:
 
 | Get Semua Produk | Get Produk by ID | Create Product | Update Product | Delete Product |
 | :---: | :---: | :---: | :---: | :---: |
-|  |  |  |  |  |
+| <img src="Dokumentasi API 8/Admin Routes/Kelola Produk/Get Semua Produk.png" width="180"> | <img src="Dokumentasi API 8/Admin Routes/Kelola Produk/Get Produk by id.png" width="180"> | <img src="Dokumentasi API 8/Admin Routes/Kelola Produk/Create Product.png" width="180"> | <img src="Dokumentasi API 8/Admin Routes/Kelola Produk/Update Product.png" width="180"> | <img src="Dokumentasi API 8/Admin Routes/Kelola Produk/Delete Product.png" width="180"> |
 
 #### Kelola Pesanan
 
 | Get All Orders | Update Order Status | Delete Orders |
 | :---: | :---: | :---: |
-|  |  |  |
+| <img src="Dokumentasi API 8/Admin Routes/Kelola Pesanan/GET all orders.png" width="300"> | <img src="Dokumentasi API 8/Admin Routes/Kelola Pesanan/Update Order Status.png" width="300"> | <img src="Dokumentasi API 8/Admin Routes/Kelola Pesanan/DeleteOrders.png" width="300"> |
 
 #### Kelola User
 
 | Get Semua User | Create User | Update User | Delete User |
 | :---: | :---: | :---: | :---: |
-|  |  |  |  |
+| <img src="Dokumentasi API 8/Admin Routes/Kelola User/Get Semua User.png" width="220"> | <img src="Dokumentasi API 8/Admin Routes/Kelola User/Create User.png" width="220"> | <img src="Dokumentasi API 8/Admin Routes/Kelola User/Update User.png" width="220"> | <img src="Dokumentasi API 8/Admin Routes/Kelola User/Delete User.png" width="220"> |
 
 ### Rute User (Buyer)
 
 | Add Item to Cart | View Cart | Place Order | View Order Detail | Mengubah Jumlah | Menghapus Barang |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|  |  |  |  |  |  |
+| <img src="Dokumentasi API 8/User(Buyer)Routes/Add Item to Cart.png" width="160"> | <img src="Dokumentasi API 8/User(Buyer)Routes/View Cart.png" width="160"> | <img src="Dokumentasi API 8/User(Buyer)Routes/Place Order.png" width="160"> | <img src="Dokumentasi API 8/User(Buyer)Routes/View Order Detail.png" width="160"> | <img src="Dokumentasi API 8/User(Buyer)Routes/Mengubah Jumlah Barang di Keranjang.png" width="160"> | <img src="Dokumentasi API 8/User(Buyer)Routes/Menghapus Barang di Cart.png" width="160"> |
 
 -----
 
@@ -153,30 +159,28 @@ Berikut adalah beberapa contoh *screenshot* dari dokumentasi API:
 
 Terima kasih kepada para kontributor luar biasa yang telah membantu mewujudkan proyek ini:
 
-\<table align="center"\>
-\<tr\>
-\<td align="center"\>
-\<a href="[https://github.com/Aivylv](https://github.com/Aivylv)"\>
-\<img src="[https://avatars.githubusercontent.com/u/161410803?v=4](https://avatars.githubusercontent.com/u/161410803?v=4)" width="100px;" alt="Lyvia Ayuning Larasati"/\>
-\<br /\>
-\<sub\>\<b\>Lyvia Ayuning Larasati (20230140182)\</b\>\</sub\>
-\</a\>
-\</td\>
-\<td align="center"\>
-\<a href="[https://github.com/naxsyambis](https://github.com/naxsyambis)"\>
-\<img src="[https://avatars.githubusercontent.com/u/155415896?v=4](https://avatars.githubusercontent.com/u/155415896?v=4)" width="100px;" alt="Friska Venunza Bayu"/\>
-\<br /\>
-\<sub\>\<b\>Friska Venunza Bayu (20230140163)\</b\>\</sub\>
-\</a\>
-\</td\>
-\<td align="center"\>
-\<a href="[https://github.com/dianfitrip](https://github.com/dianfitrip)"\>
-\<img src="[https://avatars.githubusercontent.com/u/161410454?v=4](https://avatars.githubusercontent.com/u/161410454?v=4)" width="100px;" alt="Dian Fitri Pradini"/\>
-\<br /\>
-\<sub\>\<b\>Dian Fitri Pradini (20230140177)\</b\>\</sub\>
-\</a\>
-\</td\>
-\</tr\>
-\</table\>
-
------
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Aivylv">
+        <img src="https://avatars.githubusercontent.com/u/161410803?v=4" width="100px;" alt="Lyvia Ayuning Larasati"/>
+        <br />
+        <sub><b>Lyvia Ayuning Larasati (20230140182)</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/naxsyambis">
+        <img src="https://avatars.githubusercontent.com/u/155415896?v=4" width="100px;" alt="Friska Venunza Bayu"/>
+        <br />
+        <sub><b>Friska Venunza Bayu (20230140163)</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/dianfitrip">
+        <img src="https://avatars.githubusercontent.com/u/161410454?v=4" width="100px;" alt="Dian Fitri Pradini"/>
+        <br />
+        <sub><b>Dian Fitri Pradini (20230140177)</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
