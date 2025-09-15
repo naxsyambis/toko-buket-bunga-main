@@ -1,0 +1,83 @@
+.order-history-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.order-history-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+  transition: transform 0.2s;
+}
+.order-card:hover {
+  transform: translateY(-3px);
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.order-id {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #d53f8c;
+}
+.order-date { color: #666; }
+.order-total { font-weight: 600; font-size: 1.1rem; }
+
+.order-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* === PERBAIKAN DAN PENAMBAHAN DI SINI === */
+.status-completed { background-color: #48bb78; }
+.status-shipped { background-color: #3182ce; }
+.status-processing { background-color: #4299e1; }
+.status-pending { background-color: #f6ad55; }
+.status-cancelled { background-color: #f56565; }
+
+.btn-details {
+  padding: 8px 16px;
+  border: 1px solid #d53f8c;
+  color: #d53f8c;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn-details:hover {
+  background-color: #d53f8c;
+  color: #fff;
+}
