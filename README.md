@@ -113,14 +113,6 @@ Dokumentasi lengkap API dapat diakses melalui tautan Postman berikut:
 
 Berikut adalah beberapa contoh *screenshot* dari dokumentasi API:
 
-## Dokumentasi API
-
-Dokumentasi lengkap API dapat diakses melalui tautan Postman berikut:
-
-[Dokumentasi API Floryn](https://naxsyambis-8367600.postman.co/workspace/Friska's-Workspace~de0dc303-8902-4d87-852e-dcf4b7834ade/collection/47332148-9f65aae8-499f-49f8-87b3-159c6b6180c2?action=share&creator=47332148&active-environment=47332148-b065658e-9c5a-4d39-a4d1-95228e54d8d1)
-
-Berikut adalah beberapa contoh *screenshot* dari dokumentasi API:
-
 ### Alur Otentikasi
 
 | Registrasi User Baru | Login Sebagai Buyer | Login Sebagai Admin |
